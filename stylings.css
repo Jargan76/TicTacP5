@@ -1,0 +1,27 @@
+.btn {
+    font-size       : xx-large;
+    position        : fixed;
+    border-radius   : 15px;
+    background-color: rgb(232, 243, 255);
+    font-weight     : 700;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.reset {
+    top : 625px;
+    left: 315px;
+}
+
+.new-game {
+    top :625px;
+    left: 100px;
+}
+
+.myCan {
+    margin : 6px;
+    border : 5px solid rgb(136, 85, 204);
+    outline: 5px solid rgb(51, 9, 204);
+}

@@ -140,13 +140,13 @@ function wantXorO(){
 }
 // creates reset button with a class and click listner
 function setResetBtn(){
-    resetBtn = createButton("Reset Board");
+    resetBtn = createButton("New Game");
     resetBtn.mouseClicked(resetBoard);
     resetBtn.class("btn reset");
 }
 // creates new game button with a class and click listner
 function setNewGameBtn(){
-    newGameBtn = createButton("New Game");
+    newGameBtn = createButton("Home");
     newGameBtn.mouseClicked(newGame);
     newGameBtn.class("btn new-game");
 }
@@ -212,7 +212,7 @@ function getCords(){
     if(mouseX > 200 && mouseX < 400 && mouseY > 200 && mouseY < 400){
         return 5;
     }
-    // box 6  not working
+    // box 6  
     if(mouseX > 400 && mouseY > 200 && mouseY < 400){
        return 6;
     }
